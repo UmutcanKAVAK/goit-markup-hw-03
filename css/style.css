@@ -189,7 +189,7 @@ text-transform: uppercase;
 .features-item {
     border: 2px solid red;
     text-align: left;
-    max-width: calc((100%-72px)/4);
+    width: calc((100%-72px)/4);
 }
 
 .features-title {
@@ -218,19 +218,20 @@ text-transform: uppercase;
 .team-section {
     background-color: var(--cloud);
    height: 732px;
- 
-}
-
-.team-section .container {
     padding: 120px 0;
+ 
 }
 
 .team-list {
     display: flex;
     gap: 24px;
 }
+.team-title {
+    margin-bottom: 8px;
+}
 
 .team-card {
+    width:calc((100% - 72px) / 4);
     background-color: #fff;
     border: 0.5px solid blue;
     box-shadow: 0px 2px 1px 0px #2E2F4214;
@@ -244,9 +245,8 @@ text-transform: uppercase;
     border: 1px solid red;
     display: flex;
     flex-direction: column;
-    gap: 8px;
     text-align: center;
-    margin: 32px 16px;
+    padding: 32px 0;
 }
 /* -------------portfolio section---------------- */
 .portfolio-header {
@@ -261,10 +261,10 @@ text-transform: uppercase;
 
 .portfolio-section {
     height: 1240px;
+    padding: 120px 0;
 }
 
 .portfolio-section .container {
-    padding: 120px 0;
     height: 1000px;
 }
 
@@ -278,8 +278,8 @@ text-transform: uppercase;
 
 
 
-
 .portfoli-card-info {    
+    border-top: none;
 border-width: 0px 1px 1px 1px;
     /* Top, Right, Bottom, Left */
     border-style: solid;
@@ -297,8 +297,11 @@ border-width: 0px 1px 1px 1px;
 footer {
     height: 312px;
     background-color: var(--navy-blue);
+    padding: 100px 0;
 }
-
+footer a {
+    display: inline-block;
+}
 
 .footer-logo {
     color: var(--iris);
@@ -314,9 +317,7 @@ footer {
 .footer-logo-span {
     color: var(--cloud);
 }
-footer .container {
-    padding: 120px 0;
-}
+
 
 .footer-description {
     color: var(--cloud);
