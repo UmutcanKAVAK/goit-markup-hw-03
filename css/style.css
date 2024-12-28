@@ -113,7 +113,7 @@ text-transform: uppercase;
 .nav-link {
     padding: 24px 0;
 }
-.navigation-add {
+.class-name-is-killing-me {
     display: flex;
     gap:40px ;
     margin-left: 332px;
@@ -299,9 +299,7 @@ footer {
     background-color: var(--navy-blue);
     padding: 100px 0;
 }
-footer a {
-    display: inline-block;
-}
+
 
 .footer-logo {
     color: var(--iris);
@@ -312,6 +310,7 @@ footer a {
     letter-spacing: 0.03em;
     margin-bottom: 16px;
     display: flex;
+    display: inline-block;
 }
 
 .footer-logo-span {
