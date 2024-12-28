@@ -31,6 +31,7 @@ body {
     letter-spacing: 0.02em;
 }
 
+/* Container Sınıfı */
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -43,15 +44,26 @@ body {
     border-bottom: 1px solid #e7e9fc;
     /* Test Gereksinimi */
     display: flex;
+    /* Test Gereksinimi */
     align-items: center;
     height: 72px;
+}
+
+.header-container {
+    display: flex;
+    /* Test Gereksinimi */
+    justify-content: space-between;
+    align-items: center;
+    width: 1158px;
+    /* Test Gereksinimi */
+    padding: 0 15px;
+    /* Kenar Boşlukları */
 }
 
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* Öğeleri Yatayda Dağıtma */
     width: 100%;
 }
 
@@ -98,13 +110,15 @@ body {
 }
 
 .nav-address {
-    display: flex;
-    gap: 40px;
+    /* display: flex; */
+    /* Zaten .nav-address-list'de flex kullanıldı */
 }
 
 .nav-address-list {
     display: flex;
+    /* Test Gereksinimi */
     gap: 40px;
+    /* Test Gereksinimi */
 }
 
 .nav-address-item {
@@ -334,6 +348,7 @@ body {
     /* Test Gereksinimi */
     background-color: var(--navy-blue);
     text-align: center;
+    color: var(--cloud);
 }
 
 .footer-logo {
@@ -358,4 +373,18 @@ body {
     /* Test Gereksinimi */
     margin: 0 auto;
     color: var(--cloud);
+}
+
+/* Visually Hidden Class */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    /* Safari için eklendi */
+    border: 0;
 }
