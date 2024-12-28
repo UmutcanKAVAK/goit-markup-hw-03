@@ -122,6 +122,7 @@ text-transform: uppercase;
   padding:24px 0;
 }
 
+
 /* ---------------HEADER SECTION AND------------------ */
 
 /* COVER SECTION STARTSS */
@@ -171,11 +172,14 @@ text-transform: uppercase;
 
 .features-section {
     height: 344px;
-}
-
-.features-section .container {
     padding: 120px 0;
 }
+
+.visually-hidden {
+    visibility:hidden;
+}
+
+
 
 .features-list {
     display: flex;
@@ -185,6 +189,7 @@ text-transform: uppercase;
 .features-item {
     border: 2px solid red;
     text-align: left;
+    max-width: calc((100%-72px)/4);
 }
 
 .features-title {
