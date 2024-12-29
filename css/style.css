@@ -109,11 +109,11 @@ body {
 }
 .nav-menu-list {
   display: flex;
-  gap: 24px 40px;
+  gap: 40px;
 }
 .nav-address-list {
   display: flex;
-  gap: 24px 40px;
+  gap: 40px;
   margin-left: 332px;
 }
 
