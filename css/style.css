@@ -169,6 +169,7 @@ body {
 .features-section {
   height: 344px;
   border: 1px solid darkorchid;
+  padding: 120px 0;
 }
 
 .features-list {
@@ -178,7 +179,6 @@ body {
 
 .features-section .container {
   border: 1px solid darkblue;
-  padding: 120px 0;
 }
 .features-title {
   font-family: Roboto;
